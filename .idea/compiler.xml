@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="IntroBackend" />
+        <module name="contact-trigger-aws-lambda" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="create-contact-aws-lambda" target="1.8" />
+      <module name="create-contact-lambda" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
